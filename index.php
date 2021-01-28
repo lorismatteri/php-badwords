@@ -1,5 +1,7 @@
 <?php
-    $name = "Loris";
+    /* $name = "Loris";
+    $surname = "Matteri"; */
+    $par = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus dolores laborum maxime! Minus, consequatur! Delectus provident suscipit modi voluptatibus in maxime, a odit adipisci deleniti officiis error, incidunt, aut quos?";
 ?>
 
 <!DOCTYPE html>
@@ -11,8 +13,9 @@
 </head>
 <body>
 
-    <h1>Ciao <?php echo $name ?></h1>
+    <p><?php echo $par;?></p> 
     
 </body>
 </html>
 
+<!-- php -S localhost:9999 -->
