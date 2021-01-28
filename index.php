@@ -2,6 +2,7 @@
     /* $name = "Loris";
     $surname = "Matteri"; */
     $par = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus dolores laborum maxime! Minus, consequatur! Delectus provident suscipit modi voluptatibus in maxime, a odit adipisci deleniti officiis error, incidunt, aut quos?";
+    $length = strlen($par);
 ?>
 
 <!DOCTYPE html>
@@ -14,6 +15,7 @@
 <body>
 
     <p><?php echo $par;?></p> 
+    <p>La lunghezza del paragrafo è di <?php echo $length;?> caratteri</p>
     
 </body>
 </html>
